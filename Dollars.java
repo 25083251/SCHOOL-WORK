@@ -16,7 +16,8 @@ public class Dollars {
         int Fives = dollars / 5;
         dollars %= 5;
         
-        int Ones = dollars;
+        int Ones = dollars / 1;
+        dollars %= 1;
         
         System.out.println("Currency denominations:");
         System.out.println("20s: " + Twenties);
